@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "新叶念体";
+    font-size: 33px;
+    line-height: 1.42857143;
+    color: #cdbdbd;
+    background-color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+    font-size: 33px;
+}
+.navbar-default {
+    background-color: #c6b4a4;
+    border-color: #c6b4a4;
+}
+.bj_ing{
+	width: 100%;
+	
+	background: url(../img/tao.jpg)no-repeat;
+	background: #ccc;
+}
+.row_bj img{
+	width: 100%;
+}
+.txt{
+	width: 100%;
+    font-family: "新叶念体";
+	background: url(../img/TB1xGICsxnaK1RjSZFtXXbC2VXa-750-100.png) no-repeat;
+    text-align: center;
+    font-size: 39px;
+	height: 90px;
+	line-height: 98px;
+	background-position: 181px;
+	color: #881e15;
+}
+.row>div:hover{
+	transform: scale(1.1);
+	box-shadow: #ccc;
+}
+.col_name{
+	display: flex;
+    flex-direction: column;
+	height: 288px;
+	border-radius: 20px;
+	background: #cccccc1f;
+	margin-bottom: 27px;
+}
+.col_name span{
+	color: #dba57b;
+    font-size: 39px;
+}
+/* 技能 */
+.col_skill{
+	
+	display: flex;
+    flex-direction: column;
+}
+	
+.col_img{
+	width: 53px;
+    height: 53px;
+    background: #d8d8d8;
+    border-radius: 29px;
+    margin: 0 auto;
+}
+.col_img img{
+	width: 50px;
+	height: 50px;
+}
+.col_txt h4{
+    font-size: 20px;
+    font-family: "黑体";
+    color: #8e667b;
+    text-align: center;
+}
+/* 项目 */
+.project{
+	display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    height: 357px;
+    border-radius: 13px;
+}
+.project_txt a{
+	color: black;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+.project_txt{
+	text-align: center;
+}
+.project_img{
+	width: 231px;
+    margin: 0 auto;
+}
+.project_img img{
+	width: 230px;
+	border-radius: 10px;
+}
+/* 朋友圈 */
+.photo img{
+	width: 251px;
+}
+/* 自我评价 */
+.row_h h5{
+	    text-align: center;
+	    font-size: 25px;
+		color: #6f6262;
+}
+.footer{
+	    background: #f6f3f3;
+	    height: 300px;
+}
