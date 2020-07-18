@@ -38,6 +38,8 @@ body {
 	background-position: 181px;
 	color: #881e15;
 }
+
+/* 介绍 */
 .row>div:hover{
 	transform: scale(1.1);
 	box-shadow: #ccc;
@@ -50,21 +52,35 @@ body {
 	background: #cccccc1f;
 	margin-bottom: 27px;
 }
+.hobby img{
+	width: 6.125rem;
+}
+.hobby{
+	justify-content: space-around;
+    display: flex;
+}
+.hobby_1{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	margin-top: 8px;
+}
+.hobby_1 img{
+	width: 6.125rem;
+}
 .col_name span{
 	color: #dba57b;
     font-size: 39px;
 }
 /* 技能 */
 .col_skill{
-	
 	display: flex;
     flex-direction: column;
 }
 	
 .col_img{
 	width: 53px;
-    height: 53px;
-    background: #d8d8d8;
+    height: 53px
     border-radius: 29px;
     margin: 0 auto;
 }
@@ -79,12 +95,20 @@ body {
     text-align: center;
 }
 /* 项目 */
+	
+.row_projct>div{
+	transition: all .2s;
+}
+.row_projct>div:hover{
+	transform: scale(1.1);
+}
 .project{
 	display: flex;
     flex-direction: column;
-    border: 2px solid #ccc;
+    background: #f9f5f5;
     height: 357px;
     border-radius: 13px;
+	margin-bottom: 25px;
 }
 .project_txt a{
 	color: black;
