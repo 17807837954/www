@@ -1,0 +1,37 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+ /* 影视图片列表 */
+ .cinema-list{
+   width: 310px;
+   height:220px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ /* 图片 */
+ .cinemaName{
+   width:90px;
+   height: 200px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+ }
+ /* 图片 */
+ .cinema-picter{
+   width:90px;
+   height: 300px;
+   overflow: hidden;
+   border-radius: 6px;
+ }
+.size-item{
+	font-size: 15px;
+}

@@ -1,0 +1,45 @@
+<!--pages/dome2/dome2.wxml-->
+<import src="/pages/movie/movie1/movie.wxml" />
+<view class="dayemian">
+	<view class="search">
+		<view class="search-kuang">
+			<input type="text" placeholder="搜索"></input>
+		</view>
+	</view>
+	<!-- 影院热映 -->
+	<view class="cinema-item">
+		<view class="cinema-tip">
+			<text>影院热映</text>
+			<text class="seemore" bindtap="moreMove" data-type='0'>查看更多></text>
+		</view>
+		<view class="cinema-list">
+			<block wx:for="{{arr}}">
+				<template is="msgItem" data="{{...item}}" />
+			</block>
+		</view>
+	</view>
+	<!-- 豆瓣热门 -->
+	<view class="cinema-item">
+		<view class="cinema-tip">
+			<text>豆瓣热门</text>
+			<text class="seemore" bindtap="moreMove" data-type='1'>查看更多></text>
+		</view>
+		<view class="cinema-list">
+		<block wx:for="{{hot}}">
+				<template is="msgItem" data="{{...item}}" />
+			</block>
+		</view>
+	</view>
+	<!-- 近期热门剧集 -->
+	<view class="cinema-item">
+		<view class="cinema-tip">
+			<text>近期热门剧集</text>
+			<text class="seemore" bindtap="moreMove" data-type='2'>查看更多></text>
+		</view>
+		<view class="cinema-list">
+			<block wx:for="{{NearTerm}}">
+				<template is="msgItem" data="{{...item}}" />
+			</block>
+		</view>
+	</view>
+</view>

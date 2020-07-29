@@ -1,0 +1,35 @@
+<!--pages/dome4/dome4.wxml-->
+<view class="xiangqingye">
+	<!-- 列表1 -->
+	<view class="cinema-list">
+		<view class="cinemaName" wx:for="{{arrmove}}">
+			<image class="cinema-picter" src="{{item.moveId}}"></image>
+			<text class="size-item">{{item.moveName}}</text>
+			<text>{{item.moveScore}}分</text>
+		</view>
+	</view>
+	<!-- 列表2 -->
+	<view class="cinema-list">
+		<view class="cinemaName" wx:for="{{arrList}}">
+			<image class="cinema-picter" src="{{item.moveId}}"></image>
+			<text>{{item.moveName}}</text>
+			<text>{{item.moveScore}}分</text>
+		</view>
+	</view>
+	<!-- 列表3 -->
+	<view class="cinema-list">
+		<view class="cinemaName" wx:for="{{arrListThree}}">
+			<image class="cinema-picter" src="{{item.moveId}}"></image>
+			<text>{{item.moveName}}</text>
+			<text>{{item.moveScore}}分</text>
+		</view>
+	</view>
+	<!-- 列表4 -->
+	<view class="cinema-list">
+		<view class="cinemaName" wx:for="{{arrListfour}}">
+			<image class="cinema-picter" src="{{item.moveId}}"></image>
+			<text>{{item.moveName}}</text>
+			<text>{{item.moveScore}}分</text>
+		</view>
+	</view>
+</view>

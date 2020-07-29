@@ -1,0 +1,30 @@
+<!--pages/detail/detail.wxml-->
+<view class="pages">
+	<!-- 整个页面背景 -->
+	<view class="move">
+		<!-- 电影海报 -->
+		<view class="movePicture">
+			<!-- 图片 -->
+			<image class="picture" src="../../image/leavn.jpg"></image>
+		</view>
+		<view class="moveName">
+			<!-- 片名 -->
+			<text class="Name">第一次的离别(2018)</text>
+			<text class="type">剧情 儿童/中国大陆/片长90分钟</text>
+			<view class="like">
+				<view class="xiangkan">
+				<button class="but">
+					<image class="icon" src="../../image/xiangkan.png"></image>
+					<text class="see">想看</text>
+				</button>
+				</view>
+				<view class="xiangkan">
+				<button class="but">
+					<image class="icon" src="../../image/xingxing.png"></image>
+					<text class="see">看过</text>
+				</button>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/dome4/dome4.wxss */
+.xiangqingye{
+  width: 750rpx;
+}

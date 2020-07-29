@@ -1,0 +1,7 @@
+<template name="msgItem">
+  <view class="cinemaName" bindtap="goMove" data-move-id="{{dataMoveId}}">
+  	<image class="cinema-picter" src="{{moveImg}}"></image><!-- //电影海报 -->
+  	<text class="size-item">{{moveName}}</text><!-- 电影名称 -->
+  	<text>评分:{{moveScore}}分</text><!-- 电影评分 -->
+  </view>
+</template>

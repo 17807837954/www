@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#12a531",
+    "navigationBarTitleText": "影院热评",
+    "navigationBarTextStyle":"white"
+}

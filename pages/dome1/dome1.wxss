@@ -1,0 +1,47 @@
+/* pages/dome1/dome1.wxss */
+/* pages/dome2/dome2.wxss */
+.dayemian{
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  width: 750rpx;
+  height: 40px;
+  background-color: #12a531;
+  display: flex;
+  justify-content: center;
+}
+.search-kuang{
+  width: 300px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+input{
+  text-align: center;
+}
+/* //影院热映 */
+.cinema-item{
+width: 750rpx;
+height: 260px;
+display: flex;
+flex-direction: column;
+
+}
+.cinema-tip{
+  width: 300px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.seemore{
+  color: #12a531;
+}
+

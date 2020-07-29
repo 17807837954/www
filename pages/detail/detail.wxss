@@ -1,0 +1,92 @@
+/* pages/detail/detail.wxss */
+/* 整个页面背景 */
+page {
+	background-color: beige;
+}
+
+/* 电影海报 */
+.pages {
+	display: flex;
+	flex-direction: column;
+}
+
+.move {
+	height: 260px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	height: 160px;
+	background-color: aqua;
+}
+
+.movePicture {
+	width: 300rpx;
+	height: 300rpx;
+	display: flex;
+	justify-content: center;
+}
+
+/* 海报图 */
+.picture {
+	width: 200rpx;
+	height: 300rpx;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+/* 片名 */
+.moveName {
+	width: 500rpx;
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+/* 电影名称 */
+.Name {
+	font-weight: bold;
+}
+
+/* 电影类型/ */
+.type {
+	font-size: 12px;
+}
+
+/* 收藏/看过 */
+.like {
+	width: 480rpx;
+	height: 100rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 23px;
+}
+
+/* 想看 */
+.xiangkan {
+	width: 230rpx;
+	height: 100rpx;
+	background-color: bisque;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+/* 按钮 */
+.but{
+	width: 230rpx;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+.see{
+font-size:15px ;
+}
+/* 图标 */
+.icon {
+	width: 20px;
+	height: 20px;
+}

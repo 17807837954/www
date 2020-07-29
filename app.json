@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/dome1/dome1",
+    "pages/dome2/dome2",
+    "pages/dome3/dome3",
+    "pages/dome4/dome4",
+    "pages/detail/detail"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#12a531",
+    "navigationBarTitleText": "豆瓣影视",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/dome1/dome1",
+      "text": "首页",
+      "iconPath":"image/baomihua1.png",
+      "selectedIconPath":"image/baomihua1-1.png"
+
+    }, {
+      "pagePath": "pages/dome2/dome2",
+      "text": "榜单",
+      "iconPath":"image/bangdan1.png",
+      "selectedIconPath":"image/bangdan1-1.png"
+    },{
+      "pagePath": "pages/dome3/dome3",
+      "text": "我的",
+      "iconPath":"image/ren1.png",
+      "selectedIconPath":"image/ren1-1.png"
+    
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
